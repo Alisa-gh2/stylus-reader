@@ -1,0 +1,18 @@
+# Локальное состояние (создаётся при запуске)
+state/
+.state/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*~
+
+# Рендеры для заметок (в репозитории живут только docs/screenshots)
+/screenshots/
